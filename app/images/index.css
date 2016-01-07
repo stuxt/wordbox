@@ -1,0 +1,59 @@
+
+/*css reset*/
+body, ul, ol, p, h1, h2, h3, h4, h5, h6, dl, dt, dd ,form ,textarea ,input{margin:0;}
+ul,ol{list-style:none;}
+ul,ol,input{padding:0;}
+table{margin:0 auto;width:100%;border-collapse:collapse;}
+a img{border:0;}
+img,object,audio,vedio{
+	max-width: 100%;
+}
+a{ text-decoration:none; color:#333;}
+
+body{
+	font-family:"微软雅黑";
+	font-size:16px;
+	background-color: #f7fcff;
+}
+.clear{ clear:both;}
+.h30{ height: 50px;}
+/*******dom style*******/
+.warp{
+	max-width:720px;
+	min-width:320px;
+	width:100%;
+	height: 100%;
+	margin:0 auto;
+	background-color: #048eef;
+	position: relative;
+}
+.logo{background: url(index_logo.jpg)no-repeat; width: 162px; height: 175px;margin: 0px auto;}
+.sologn{background: url(index_sologn.jpg)no-repeat; width: 201px; height: 26px;margin: 0px auto; margin-top: 20%;}
+.enter{
+	position: absolute;
+	bottom: 15%;	
+	width: 100%;
+}
+.enter a{
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	display: block;
+	background-color: #048EEF;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+	margin: 10px auto;
+	cursor: pointer;
+	font-size: 20px;
+	color: #fff;
+	font-family: "microsoft yahei";
+}
+
+.footer{
+	position: absolute;
+	bottom: 3%;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}

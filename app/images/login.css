@@ -1,0 +1,123 @@
+
+/*css reset*/
+body, ul, ol, p, h1, h2, h3, h4, h5, h6, dl, dt, dd ,form ,textarea ,input{margin:0;}
+ul,ol{list-style:none;}
+ul,ol,input{padding:0;}
+table{margin:0 auto;width:100%;border-collapse:collapse;}
+a img{border:0;}
+img,object,audio,vedio{
+	max-width: 100%;
+}
+a{ text-decoration:none; color:#333;}
+a:visited{color:#333;}
+
+
+body{
+	font-family:"微软雅黑";
+	font-size:16px;
+	background-color: #f7fcff;
+}
+.clear{ clear:both;}
+/*******dom style*******/
+.warp{
+	max-width:720px;
+	min-width:320px;
+	width:100%;
+	margin:0 auto;
+}
+.header{width:100%; height:170px;background-color: #048eef; padding-top: 50px;}
+.logo{background: url(login_logo.png)no-repeat; width: 136px; height: 121px;margin: 0px auto;}
+
+.word_input{
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+	background-color: #fff;
+	border: none;
+	border-bottom: #e3e3e3 1px solid;
+	font-family: "microsoft yahei";
+	font-size: 20px;
+	padding-left:60px;
+	outline:none;
+	color: #666;
+	box-sizing: border-box;
+}
+.username{
+	background: #fff url(ipnut_usericon.png) 10px 20px no-repeat;
+}
+.password{
+	background: #fff url(ipnut_passicon.png) 10px 20px no-repeat;
+}
+.login_form li{ 
+	width: 49%;
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+	box-sizing:border-box;
+	margin: 10px auto;
+}
+.login_form li.forgot{
+	text-align: right;
+}
+.login_form li a{
+	color: #9b9b9b;
+	display: block;
+	height: 60px;
+}
+.login_form li.reg a{
+	padding-left: 40px;
+}
+.login_form li.forgot a{
+	padding-right: 40px;
+}
+.submit{
+	width: 90%;
+	height: 60px;
+	display: block;
+	background-color: #048eef;
+	border:1px solid #048eef;
+	border-radius:10px;
+	margin: 10px auto;
+	cursor: pointer;
+	font-size: 20px;
+	color: #fff;
+	font-family: "microsoft yahei";
+}
+.submit:hover{
+	background-color: #1f9cf3;
+}
+
+.or{
+	width: 95%;
+	height: 1px;
+	position: relative;
+	margin: 60px auto;
+	background-color: #E2E2E2;
+}
+.or span{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #EEE;
+	border-radius: 20px;
+	background-color: #F7FCFF;
+	display: block;
+	position: absolute;
+	left: 50%;
+	margin-left: -15px;
+	top: -15px;
+}
+
+.faster_login{
+	width: 292px;
+	margin: 10px auto;
+}
+.faster_login li{
+	display: inline-block;
+	text-align: center;
+	margin: 10px 15px;
+}
+.faster_login li img{
+	border-radius: 5px;
+}
